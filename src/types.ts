@@ -27,5 +27,15 @@ export interface Annotation {
   endPrice?: number;
 }
 
-export type TabType = 'cheat' | 'learn' | 'guide' | 'chart';
+export type TabType = 'cheat' | 'learn' | 'guide' | 'chart' | 'alerts';
 export type SetupType = 'buy' | 'sell';
+
+export interface PriceAlert {
+  id: string;
+  symbol: string;
+  price: number;
+  label: string;
+  type: 'above' | 'below';
+  isActive: boolean;
+  createdAt: number;
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Anna\'s Master</string>
+    <string name="title_activity_main">Anna\'s Master</string>
+    <string name="package_name">com.annasmaster.app</string>
+    <string name="custom_url_scheme">com.annasmaster.app</string>
+</resources>

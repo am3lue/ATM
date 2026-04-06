@@ -12,7 +12,7 @@ export const BULLISH_CANDLES: Candle[] = [
   { time: 4, open: 117, high: 118, low: 105, close: 108, type: 'bearish' }, // Sweep SSL (115 -> 105)
   { time: 5, open: 108, high: 145, low: 107, close: 142, type: 'bullish' }, // MSS (Breaks 128)
   { time: 6, open: 142, high: 155, low: 140, close: 152, type: 'bullish' },
-  { time: 7, open: 152, high: 153, low: 130, close: 132, type: 'bearish' }, // Retrace to FVG (Gap 118-130? No, gap is between 4 high and 6 low)
+  { time: 7, open: 152, high: 153, low: 130, close: 132, type: 'bearish' }, // Retrace to FVG
   { time: 8, open: 132, high: 165, low: 131, close: 162, type: 'bullish' }, // Entry & Expansion
   { time: 9, open: 162, high: 175, low: 160, close: 172, type: 'bullish' },
   { time: 10, open: 172, high: 185, low: 170, close: 182, type: 'bullish' },
